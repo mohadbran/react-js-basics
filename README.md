@@ -1,16 +1,33 @@
-# React + Vite
+# ReactJS project written during a live session for teaching purpose
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the ReactJS project we worked on during a live session in the telegram channel [Mohadbran](https://t.me/mohadbran/720)
 
-Currently, two official plugins are available:
+## Follow these steps to setup this project on your local machine 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Create a folder to store the project 
 
-## React Compiler
+2. Open **Command Prompt** or other cli terminal tool and change the path to the created folder
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Clone (download) this repository.
+Type this command and press enter in the same cmd (terminal) session 
+```
+git clone https://github.com/mohadbran/react-js-basics.git
+```
 
-## Expanding the ESLint configuration
+4. Change the path to the project folder 
+Type this command and press enter  
+```
+cd react-js-basics
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. Install ReactJS dependencies 
+Type this command and press enter  
+```
+npm install
+```
+
+6. Start the applicatin 
+Type this command and press enter  
+```
+npm run dev
+```
